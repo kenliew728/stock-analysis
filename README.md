@@ -15,5 +15,6 @@ The refactoring work was done by eliminating the reference to the ticker using t
 
 The average run time on the refactored code was reduced to an average of 0.5 seconds, which is 0.042 seconds per stock, including formatting. This is equivalent to an 86% improvement. Assuming we running all 2,600 active stocks on NYSE, the total run time is now reduced to 108 seconds, or 1.8 minutes! To put in perspective, if an analyst need to run all stock performances for the past 10 years, it will take the analyst 18 minutes to run, compare to 125 minutes!
 #### *Execution Time for both 2017 and 2018 based on Refactored VBA Code*
-![VBA_Challenge_2017](https://user-images.githubusercontent.com/70525492/93521064-13bc3980-f8f5-11ea-8935-935d0bae2060.png)
-![VBA_Challenge_2018](https://user-images.githubusercontent.com/70525492/93521066-16b72a00-f8f5-11ea-9926-525c1192a081.png)
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/70525492/93630422-aa4d3100-f9af-11ea-8b0c-8750dd9290e4.png)
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/70525492/93630426-aae5c780-f9af-11ea-8a7b-6c74314b1ab0.png)
+

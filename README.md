@@ -9,7 +9,7 @@ The original VBA code was written to analyze 12 stock performances for the year 
 ![Current State 2017](https://user-images.githubusercontent.com/70525492/93521891-49155700-f8f6-11ea-9bb9-53f53d97f367.png)
 ![Current State 2018](https://user-images.githubusercontent.com/70525492/93521896-4a468400-f8f6-11ea-8f2c-a42771067b8d.png)
 ## **Results**
-The refactoring work was done by reducing the "For" loop and 'If" statement reference to the ticker. 
+The refactoring work was done by reducing the "For" loop and 'If" statement reference to the ticker. In the original VBA code, to determine the first and last row on each stock ticker, the if statement will need to compare with the ticker symbol and the row above and below to complete the loop.  
 The average run time on the refactored code was reduced to an average of 0.5 seconds, which is 0.042 seconds per stock, including formatting. This is equivalent to an 86% improvement. Assuming we running all 2,600 active stocks on NYSE, the total run time is now reduced to 108 seconds, or 1.8 minutes! To put in perspective, if an analyst need to run all stock performances for the past 10 years, it will take the analyst 18 minutes to run, compare to 125 minutes!
 #### *Execution Time for both 2017 and 2018 based on Refactored VBA Code*
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/70525492/93521064-13bc3980-f8f5-11ea-8935-935d0bae2060.png)

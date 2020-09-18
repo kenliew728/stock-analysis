@@ -13,9 +13,9 @@ The refactoring work was done by eliminating the reference to the ticker within 
 #### *Comparison between the Orignal Nested loop vs. Refactored Nested Loop*
 |   Year   | Runtime (Current) | Runtime (Refactored) |
 | -------- | ----------------- | -------------------- |
-|   2017   |       3.36        |        0.46s         |
-|   2018   |       4.15        |        0.55s         |
-|  Average |       3.76        |        0.51s         |
+|   2017   |       3.36s       |        0.46s         |
+|   2018   |       4.15s       |        0.55s         |
+|  Average |       3.76s       |        0.51s         |
 
 ![VBA Original_Nested](https://user-images.githubusercontent.com/70525492/93631484-49265d00-f9b1-11ea-9455-6ceefb8944ae.png)
 ![Refactored_VBA](https://user-images.githubusercontent.com/70525492/93631821-dff31980-f9b1-11ea-98a7-a1b897398260.png)
@@ -24,4 +24,15 @@ The average run time on the refactored code was reduced to an average of 0.51 se
 #### *Execution Time for both 2017 and 2018 based on Refactored VBA Code*
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/70525492/93630422-aa4d3100-f9af-11ea-8b0c-8750dd9290e4.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/70525492/93630426-aae5c780-f9af-11ea-8a7b-6c74314b1ab0.png)
+## **Summary**
+### *What are the advantages or disadvantages of refactoring code?*
+The advantages and disadvantages of refactoring code can be summarized as follow:
+1. Advantages
+    - Allows code to run more efficiently.
+    - Makes the code easier to understand or debugging.
+    - Improves the quality of the coding.
+2. Disadvantages
+    - May take up too much time resulted in diminishing returns.
+    - Time equals money and if all programmers took forever to refactor the codes, it will definitely increase the cost of the project.
+### *Advantages and Disadvantages of the Original and Refactored VBA Script*
 

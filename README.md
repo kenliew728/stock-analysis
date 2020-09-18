@@ -6,8 +6,8 @@ The purpose of this project is to refactor an existing VBA code in order to make
 ### Current State
 The original VBA code was written to analyze 12 stock performances for the year 2017 and 2018. Both analyses took an average of 3.47 seconds to execute. This comes to an average of 0.29 seconds per stock per year. There are currently 2,600 active stocks being traded on the New York Stock Exchange and if we are to analyze all stocks, it will take 752 seconds or 12.5 minutes per year of analysis to complete the execution. Therefore, it will be beneficial to refactor the existing VBA code to make it more efficient.
 #### *Execution Time for both 2017 and 2018 based on Original VBA Code*
-![Current State 2017](https://user-images.githubusercontent.com/70525492/93521891-49155700-f8f6-11ea-9bb9-53f53d97f367.png)
-![Current State 2018](https://user-images.githubusercontent.com/70525492/93521896-4a468400-f8f6-11ea-8f2c-a42771067b8d.png)
+![Current_State_2017](https://user-images.githubusercontent.com/70525492/93630787-2b0c2d00-f9b0-11ea-97f4-95db4ee4930b.png)
+![Current_State_2018](https://user-images.githubusercontent.com/70525492/93630788-2b0c2d00-f9b0-11ea-9b6f-287184d4a6e4.png)
 ## **Results**
 The refactoring work was done by eliminating the reference to the ticker using the "If" loop in the original VBA code. 
 #### *Reference to the Orignal Nested loop Stock Analysis VBA code

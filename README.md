@@ -2,9 +2,9 @@
 ---
 ## **Overview of Project**
 ### Purpose
-The purpose of this project is to refactor an existing VBA code in order to make the code more efficient by reducing the total execution time
+The purpose of this project is to refactor an existing VBA code in order to make the code more efficient to reduce the total execution time
 ### Current State
-The original VBA code was written to analyze 12 stock performances for the year 2017 and 2018. Both analyses took an average of 3.76 seconds to execute. This comes to an average of 0.31 seconds per stock per year. There are currently 2,600 active stocks being traded on the New York Stock Exchange (NYSE) and if an analyst is asked to analyze all stocks on a given year, it will take 832 seconds or 13.9 minutes to complete the execution. Therefore, it will be beneficial to refactor the existing VBA code to make it more efficient.
+The original VBA code was written to analyze 12 stock performances for the year 2017 and 2018. Both analyses took an average of 3.76 seconds to execute. This comes to an average of 0.31 seconds per stock per year. There are currently 2,600 active stocks being traded on the New York Stock Exchange (NYSE) and if an analyst is asked to analyze all stocks in any given year, it will take 832 seconds or 13.9 minutes to complete the execution. Therefore, it will be beneficial to refactor the existing VBA code to make it more efficient.
 #### *Execution Time for both 2017 and 2018 based on Original VBA Code*
 ![Current_State_2017](https://user-images.githubusercontent.com/70525492/93630787-2b0c2d00-f9b0-11ea-97f4-95db4ee4930b.png)
 ![Current_State_2018](https://user-images.githubusercontent.com/70525492/93630788-2b0c2d00-f9b0-11ea-9b6f-287184d4a6e4.png)
@@ -29,10 +29,23 @@ The average run time on the refactored code was reduced to an average of 0.51 se
 The advantages and disadvantages of refactoring code can be summarized as follow:
 1. Advantages
     - Allows code to run more efficiently.
-    - Makes the code easier to understand or debugging.
+    - Makes the code easier to understand or to debug.
     - Improves the quality of the coding.
 2. Disadvantages
-    - May take up too much time resulted in diminishing returns.
-    - Time equals money and if all programmers took forever to refactor the codes, it will definitely increase the cost of the project.
+    - Refactoring may take up too much time to complete, resulted in diminishing returns.
+    - Time equals money and if all programmers took a long time to refactor the codes, it will definitely increase the cost of the project and may delay the projected completion time.
 ### *Advantages and Disadvantages of the Original and Refactored VBA Script*
+#### Orignal VBA Script
+1. Advantages
+    - Less maintenance when more tickers are added into the data. For example, if one ticker is added, only the ticker dimension count and the For "i" loop count need to be updated
+2. Disadvantages
+    - Less efficient and takes more time to execute. 
+#### Refactored VBA Script
+1. Advantages
+    - Definitely more efficient to run
+2. Disadvantages
+    - May spend more time to update script when more ticker is added. For example, if one ticker is added, the following scripts will need to be updated
+        - Ticker dimension count
+        - Output array count (total 3 arrays)
+        - For "tickerIndex" loop count
 

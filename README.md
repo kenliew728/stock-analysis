@@ -1,4 +1,4 @@
-# Using Refactored VBA Code to Analyze Stocks
+# Refactoring VBA Code to Improve Stock Analysis Efficiency
 ---
 ## **Overview of Project**
 ### Purpose
